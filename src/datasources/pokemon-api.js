@@ -6,6 +6,10 @@ class PokemonAPI extends RESTDataSource {
     // the base url for your REST endpoint
     this.baseURL = 'https://pokeapi.co/api/v2/pokemon/';
   }
+
+  getPokemon() {
+    return this.get(`1`)
+  }
 }
 
 module.exports = PokemonAPI;
