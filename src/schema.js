@@ -8,6 +8,8 @@ const typeDefs = gql`
 
   type Pokemon {
     name: String
+    "List of the different variants of the Pokemon (i.e. Kantonian form, Alolan form, etc.)"
+    variants: [Pokemon!]!
   }
 `
 
