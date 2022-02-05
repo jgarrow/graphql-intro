@@ -1,7 +1,7 @@
 const resolvers = {
   Query: {
-    pokemon: (_, __, { dataSources }) => {
-      return dataSources.pokemonAPI.getPokemon();
+    pokemon: (_, { id }, { dataSources }) => {
+      return dataSources.pokemonAPI.getPokemon(id);
     }
   }
 };
