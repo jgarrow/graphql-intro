@@ -1,8 +1,9 @@
 {
   "name": "pokeapi-graphql",
   "version": "1.0.0",
-  "description": "",
+  "description": "Boilerplate for setting up a GraphQL server for the PokeAPI REST API",
   "main": "index.js",
+  "keywords": ["graphql", "apollo server", "pokeapi", "pokemon"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
